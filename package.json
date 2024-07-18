@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://aniket-2357.github.io/Auth_app",
+=======
+  
+>>>>>>> origin/main
   "name": "gmt",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +22,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+    
+>>>>>>> origin/main
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
