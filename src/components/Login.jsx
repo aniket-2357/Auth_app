@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import GoogleButton from "./GoogleButton";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import '../styles/Login.css'; // Import custom CSS
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -20,10 +22,10 @@ const Login = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100 page-container">
+    <div className="d-flex justify-content-center align-items-center vh-100">
       <div className="card p-4" style={{ width: '25rem' }}>
         <div className="my-3">
-          <h2>Login to Continue Google auth app</h2>
+          <h2>Login to Continue</h2>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -68,8 +70,8 @@ const Login = () => {
           </div>
         </form>
 
-        <GoogleButton />
-        <div className="mt-3">
+        <GoogleButton className="mt-3 w-100" />
+        <div className="mt-3 text-center">
           <Link to="/forgot-password">Forgot Password?</Link>
         </div>
       </div>
