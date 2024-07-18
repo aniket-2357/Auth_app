@@ -1,0 +1,55 @@
+/* styles.css */
+.page-container {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: #fff3e6;
+}
+
+.card h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-text {
+  color: #888;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.mt-3 a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.mt-3 a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .card {
+    margin-right: 2rem; /* Adjust margin as needed */
+  }
+}

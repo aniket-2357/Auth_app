@@ -1,0 +1,19 @@
+/* PostLoginScreen.css */
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .screen-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Styles for AnalogClock, SliderControl, and ShareButton can be added here based on your design */
+  

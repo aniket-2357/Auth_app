@@ -1,7 +1,6 @@
-// Home.js
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import '../Home.css';
+// import { Link } from 'react-router-dom';
+import '../styles/Home.css';
 
 const Home = () => {
   const [quote, setQuote] = useState('');
@@ -34,11 +33,9 @@ const Home = () => {
 
   return (
     <div className="home-container page-container">
-      <h1>Welcome to Our Authentication App</h1>
-      <p>Please login or sign up to continue.</p>
-      <div className="home-buttons">
-        <Link to="/login" className="btn btn-primary mx-2">Login</Link>
-        <Link to="/signup" className="btn btn-secondary mx-2">Sign Up</Link>
+      <div className="welcome-container">
+        <h1>Welcome to Our Authentication App</h1>
+        <p>Please login or sign up to continue.</p>
       </div>
       <div className="quote-container">
         <blockquote className="blockquote text-center mt-4">

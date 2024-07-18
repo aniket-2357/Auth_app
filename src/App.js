@@ -14,10 +14,11 @@ import './App.css'; // Assuming you have a global CSS file for styling
 import PostLoginScreen from './components/PostLoginScreen';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   
-  // const apikey="s9PNuRJRcNWGVwmBJThRXA==eHx8deIW6dRpIaGO"
+
   return (
     <div className="background">
     <Router>
@@ -28,7 +29,9 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             
           </Route>
+          <Route path="/Auth_app" element={<Home/>} />
           <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path= "/postlogin" element={<PostLoginScreen />}/>
