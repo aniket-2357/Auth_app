@@ -1,4 +1,4 @@
-Project Name
+Auth_app
 Welcome to the Project Name! This web application is built using React, Firebase, and Bootstrap. It includes features such as user authentication, an analog clock, a slider for controlling the clock's speed, and a shareable URL for specific configurations.
 
 Table of Contents
